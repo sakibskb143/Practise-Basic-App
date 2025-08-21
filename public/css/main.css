@@ -1,0 +1,37 @@
+.bg-light{
+    background-color: cadetblue !important;
+}
+.btn-outline-success {
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.carousel-container {
+  width: 70vw;  
+  height: 70vh; 
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselExampleControls {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner, .carousel-item, .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+}
+.footer{
+    text-align: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
