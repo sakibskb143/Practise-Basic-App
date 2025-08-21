@@ -45,6 +45,7 @@ Route::view('/feature2', 'feature2');
 Route::view('/feature3', 'feature3');
 
 Route::get('student',[StudentController::class, 'index']);
+Route::get('student/course',[StudentController::class, 'getcourse']);
 
 // Route::resource('Student', ResourceController::class);
 
